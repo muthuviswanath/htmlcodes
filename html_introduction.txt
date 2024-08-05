@@ -1,0 +1,44 @@
+How many types of elements are there in HTML?
+2 
+	1. In-line
+			<span>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</span>
+	2. Block Level
+			<p>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</p>
+
+
+		<div class="container" style="color:cadetblue;">
+
+		</div>
+
+
+		Tag name:	div
+		Attributes:	class, style
+		Property: 	color
+		Value:		cadetblue, container
+
+		<a href="#">login</a>
+
+		text: link text - innerHTML
+
+		h1 - Big
+		h6 - Small
+
+		bold - <b></b>, <strong></strong>
+		italics - <i></i>, <em></em>
+		small - <small></small>
+		superscript - <sup></sup>
+		subscript - <sub></sub>
+		strikethrough - <del></del>
+		underline - <ins></ins>
