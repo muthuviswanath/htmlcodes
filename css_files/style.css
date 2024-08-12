@@ -1,0 +1,33 @@
+/*
+Element Selector
+*/
+h1{
+    color:red;
+}
+
+p{
+    color:yellowgreen;
+}
+
+/*
+Simple selector - id, name, class
+*/
+
+.container{
+
+    margin: 0px;
+    left:0px;
+    width: 100%;
+    color:crimson;
+}
+
+.container-fluid{
+    display: block;
+    margin:50px;
+    width: 100%;
+    color: navy;
+}
+#empid{
+    background-color: blue;
+    color: yellow;
+}

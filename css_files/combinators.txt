@@ -1,0 +1,4 @@
+1. Descendent Selector (space)
+2. Child Selector (>)
+3. Adjacent Sibling Selector (+)
+4. General Sibling Selector (~)

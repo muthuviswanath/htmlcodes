@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-item-1{grid-area: carousel;}
+        .grid-item-2{grid-area: navbars;}
+        .grid-item-3{grid-area: article;height:200px;}
+        .grid-item-4{grid-area: section;height:200px;}
+        .grid-item-5{grid-area: aside;}
+        .grid-item-6{grid-area: footer;}
+        .grid-container{
+            display: grid;
+            grid-template-areas: 
+            'carousel carousel carousel carousel carousel carousel'
+            'navbars navbars navbars navbars navbars navbars'
+            'article article article aside aside aside'
+            'section section section aside aside aside'
+            'footer footer footer footer footer footer'
+            ;
+            gap: 5px;
+            background-color: cornflowerblue;
+        }
+        .grid-container > div{
+            background-color: darkgray;
+            color:black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1">Carousel</div>
+        <div class="grid-item-2">Nav Bars</div>
+        <div class="grid-item-3">Article</div>
+        <div class="grid-item-4">Section</div>
+        <div class="grid-item-5">Aside</div>
+        <div class="grid-item-6">Footer</div>
+    </div>
+</body>
+</html>
