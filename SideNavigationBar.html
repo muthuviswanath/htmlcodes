@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0;
+        }
+        .sidenav{
+            margin:0;
+            position: fixed;
+            padding: 10px;
+            width: 250px;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .sidenav a{
+            display: block;
+            padding: 20px;
+            color: brown;
+            text-decoration: none;
+        }
+
+        .sidenav a.active-link{
+            background-color: chocolate;
+            color: #f1f1f1;
+        }
+
+        .sidenav a:hover:not(.active-link){
+            background-color: rgb(45, 45, 45);
+            color: #f1f1f1;
+        }
+        .content{
+            margin-left: 260px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a href="index.html" class = "active-link"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    </div>
+
+    <div class="content">
+        <h3>Contents</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam atque iure eaque suscipit hic soluta consequuntur deserunt, itaque quas ea perferendis iusto animi quam ducimus! Totam ratione praesentium minima.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic itaque, nam quas nisi ullam perferendis voluptate vel ea optio delectus est dolores aut, eveniet, adipisci repellendus nostrum ipsa esse.
+        </p>
+    </div>
+</body>
+</html>
