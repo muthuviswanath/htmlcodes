@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <p id="browser_details"></p>
+    <p id="screen_details"></p>
+    <script>
+        document.getElementById("browser_details").innerHTML =
+        "Browser Width: " + window.innerWidth +
+        "<br>Browser Height: " + window.innerHeight +
+        "<br>Browser Name: " + navigator.appName +
+        "<br>Browser Version: " + navigator.appVersion +
+        "<br>Browser Code Name: " + navigator.appCodeName +
+        "<br>Browser Platform: " + navigator.platform +
+        "<br>Browser Language: " + navigator.language;
+    </script>    
+    <script>
+        document.getElementById("screen_details").innerHTML =
+        "Screen Width: " + screen.width +
+        "<br>Screen Height: " + screen.height +
+        "<br>Screen Color Depth: " + screen.colorDepth +
+        "<br>Screen Pixel Depth: " + screen.pixelDepth +
+        "<br>Screen Orientation: " + screen.orientation +
+        "<br>Screen Avail Width: " + screen.availWidth +
+        "<br>Screen Avail Height: " + screen.availHeight;
+    </script>
+
+    <button onclick="goNext()">Next</button>
+    <script>
+        function goNext() {
+            window.history.forward();
+        }
+    </script>
+</body>
+</html>

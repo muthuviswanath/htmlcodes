@@ -1,0 +1,9 @@
+Number
+BigInt
+Boolean
+String
+null
+Object
+undefined
+Symbol
+Array

@@ -1,0 +1,4 @@
+1. Inside Head tag using the <script>Write your Java script codes here</script>
+2. Inside the <body> <script>Write your Java script codes here</script> </body>
+3. Outside the htmlfile as a separate file but don't forget to include in the head/body tag
+4. Inside the tag using event handling

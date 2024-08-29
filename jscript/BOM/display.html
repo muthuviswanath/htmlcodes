@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">
+        When I mouse over the button, the button has to change the background color and
+        the foreground color of the current paragraph.
+    </p>
+    <button onmouseover="changeColor()" onmouseleave="resetcolor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            document.getElementById("para").style.backgroundColor = "yellow";
+            document.getElementById("para").style.color = "blue";
+        }
+        function resetcolor() {
+            document.getElementById("para").style.backgroundColor = "white";
+            document.getElementById("para").style.color = "black";
+        }
+    </script>
+</body>
+</html>
